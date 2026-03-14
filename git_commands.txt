@@ -5,6 +5,7 @@ git rm --cache <filename> --> To move file from staged to untracked
 git commit -m "message" --> To move file from staged to tracked
 git rm --cached <filename> --> To move file from tracked to untracked
 git restore <filename> --> To restore tracked deleted files
+git remote add origin <github repo https address> --> To establish connectivity with github repo 
 git remote set-url origin https://<accesstoken>@github.com/nirav89t/<reponame> (access token to be created via GITHUB settings -> Developer settings -> Personal Access Token -> Classic token-> Generate New token with repo name and note down token )
 git remote -v --> to check github push/fetch paths
 git push origin master --> to push code from local to github
