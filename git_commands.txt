@@ -1,3 +1,4 @@
+
 Git Commands:
 git init --> Init folder/repo for version control
 git status --> Check if file is untracked (red), staged (green), nothing to commit (tracked)
@@ -12,3 +13,7 @@ git remote -v --> to check github push/fetch paths
 git push origin master --> to push code from local to github
 git clone <github code https address> --> To copy code from github to local (one time)
 git pull origin master --> To copy code from github to local
+git checkout -b <branchname> --> To create branch from current branch
+git branch --> To list all branches
+git switch <branchname> --> To switch to another existing branch
+git log --oneline --> To check all commits and head (latest commit), press q to exit
