@@ -18,3 +18,4 @@ git branch --> To list all branches
 git switch <branchname> --> To switch to another existing branch
 git log --oneline --> To check all commits and head (latest commit), press q to exit
 git fetch --> To get remote branches to local
+Note:create hooks in .git/hooks folder to perform code validations checks before commit
