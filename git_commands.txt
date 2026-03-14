@@ -1,0 +1,6 @@
+git init --> Init folder/repo for version control
+git status --> Check if file is untracked (red), staged (green)
+git add <filename> --> To move file from untracked to staged
+git rm --cache <filename> --> To move file from staged to untracked
+git commit -m "message" --> To move file from staged to tracked
+git restore <filename> --> To restore tracked deleted files
