@@ -1,3 +1,4 @@
+
 Git Commands:
 git init --> Init folder/repo for version control
 git status --> Check if file is untracked (red), staged (green), nothing to commit (tracked)
