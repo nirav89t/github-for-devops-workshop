@@ -12,3 +12,6 @@ git remote -v --> to check github push/fetch paths
 git push origin master --> to push code from local to github
 git clone <github code https address> --> To copy code from github to local (one time)
 git pull origin master --> To copy code from github to local
+git checkout -b <branchname> --> To create branch from current branch
+git branch --> To list all branches
+git swicth <branchname> --> To switch to another existing branch
